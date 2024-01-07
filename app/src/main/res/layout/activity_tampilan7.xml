@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan_7">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        app:menu="@menu/bottom_navigation_menu"
+        android:backgroundTint="@color/black"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_settings"
+        android:layout_marginLeft="350dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_add"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_notifications"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageButton
+        android:id="@+id/BtnMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bookmark_border"
+        android:layout_marginLeft="200dp"/>
+
+
+
+    <EditText
+        android:id="@+id/EditTextCari"
+        android:layout_below="@id/BtnMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cari"
+        android:drawableLeft="@drawable/ic_search"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:drawablePadding="15dp"
+        android:maxLength="25"
+        android:gravity="start"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Teman"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/EditTextCari"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnAddFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_add_alt"
+        android:layout_below="@id/text6"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/green"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group_add"
+        android:layout_below="@id/btnAddFriend"
+        android:backgroundTint="@color/green"/>
+
+
+
+
+
+</RelativeLayout>

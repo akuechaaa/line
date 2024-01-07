@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Tampilan_5">
+
+    <TextView
+        android:id="@+id/textbaru"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mengenai Penggunaan Informasi Anda
+
+LY Corporation akan menggunakan informasi yang dicantumkan di bawah ini untuk tujuan mencegah penggunaan yang tidak wajar dan menyediakan, mengembangkan serta meningkatkan layanan kami, dan untuk distribusi iklan. Mohon diperhatikan bahwa informasi tersebut tidak termasuk konten-konten pesan dalam bentuk teks, gambar, video, dsb. atau konten-konten panggilan yang dikomunikasikan antara teman LINE.
+
+Informasi berikut dapat dibagikan di antara perusahaan-perusahaan yang menyediakan layanan-Layanan terkait LY Corporation atau para penyedia layanan dan subkontraktor kami.
+
+Komunikasi dengan teman LINE (termasuk, namun tidak terbatas pada, komunikasi yang tidak terkirim.)
+
+Stiker, emotikon, efek dan filter Kondisi penggunaan seperti dengan siapa Anda berkomunikasi, tanggal/waktu komunikasi, apakah pesan telah dibaca, format data, fitur Urung Kirim untuk pesan dan akses terhadap URL-URL Konten-konten yang diunggah di LINE VOOM dan Informasi Periferal (Jika diunggah untuk Hanya Saya, maka hanya Informasi Periferal yang digunakan. Informasi Periferal mengacu kepada informasi seperti tanggal/waktu konten ditampilkan, format data atas konten yang diunggah, stiker pada komentar, dan waktu konten dilihat)
+
+Komunikasi dengan akun resmi, termasuk, namun tidak terbatas pada, konten-konten dari komunikasi tersebut
+
+Kondisi penggunaan dari berbagai fungsi, seperti browser, dan fungsi-fungsi penyimpanan dan berbagi yang disediakan oleh LINE
+
+Kami akan menggunakan informasi seperti format data dari konten-konten yang terkait ketika Anda menggunakan fungsi-fungsi seperti fungsi penyimpanan atau fungsi berbagi dalam ruang obrolan Anda.
+
+Informasi tentang tempat-tempat di mana Anda telah mengakses URL-URL melalui LINE
+
+Contohnya, jika Anda mengakses dari suatu ruang obrolan dengan teman LINE, tempat mengacu kepada ruang obrolan ini" />
+
+    <Button
+        android:id="@+id/setuju"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="89dp"
+        android:text="Setuju"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/tidaksetuju"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="38dp"
+        android:text="Tidak Setuju"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+</RelativeLayout>

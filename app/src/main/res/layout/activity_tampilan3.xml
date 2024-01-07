@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan_3">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="215dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="506dp"
+        android:text="BUAT AKUN BARU"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ImageButton
+        android:id="@+id/iconbck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="557dp"
+        android:src="@drawable/ic_back" />
+
+    <ImageButton
+        android:id="@+id/iconmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="553dp"
+        android:src="@drawable/ic_mark" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginBottom="402dp"
+        android:text="Pengguna lain di LINE dapat melihat nama tampilan dan media profil anda" />
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="127dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="305dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_camera" />
+
+    <EditText
+        android:id="@+id/EdtTxt1"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="236dp"
+        android:hint="Nama Profil" />
+
+    <Button
+        android:id="@+id/btnok3"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="15dp"
+        android:text="OK"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"/>
+
+
+</RelativeLayout>

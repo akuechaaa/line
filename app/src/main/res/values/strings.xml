@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Line KW</string>
+    <string name="select_country">Select a country</string>
+
+    <string-array name="countries_array">
+        <item>USA (+1)</item>
+        <item>Canada (+1)</item>
+        <item>United Kingdom (+44)</item>
+        <!-- Tambahkan negara lain sesuai kebutuhan -->
+    </string-array>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Tampilan_4">
+
+    <ImageButton
+        android:id="@+id/iconback4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="518dp"
+        android:src="@drawable/ic_back" />
+
+    <ImageButton
+        android:id="@+id/iconmark4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="511dp"
+        android:src="@drawable/ic_mark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="195dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="452dp"
+        android:text="BUAT KATA SANDI"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="383dp"
+        android:text="Pastikan kata sandi terdiri dari 8 karakter atau lebih dengan setidaknya 3 poin berikut:" />
+
+    <TextView
+        android:id="@+id/kapital1"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="324dp"
+        android:text="- Huruf Kapital" />
+
+    <TextView
+        android:id="@+id/kapital2"
+        android:layout_width="185dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="286dp"
+        android:text="- huruf kecil" />
+
+    <TextView
+        android:id="@+id/kapital3"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="265dp"
+        android:text="- Angka " />
+
+    <TextView
+        android:id="@+id/kapital4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="232dp"
+        android:text="- Simbol" />
+
+    <EditText
+        android:id="@+id/EdtTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="175dp"
+        android:drawableRight="@drawable/ic_eye"
+        android:hint="Masukkan Kata Sandi" />
+
+    <EditText
+        android:id="@+id/edtTxtRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="126dp"
+        android:drawableRight="@drawable/ic_eye"
+        android:hint="Masukkan Sekali Lagi" />
+
+    <ImageButton
+        android:id="@+id/next4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/forward" />
+
+
+</RelativeLayout>

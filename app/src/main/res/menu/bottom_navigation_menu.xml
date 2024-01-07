@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_beranda"
+        android:title="Beranda"
+        android:icon="@drawable/home" />
+
+    <item
+        android:id="@+id/navigation_obrolan"
+        android:title="Obrolan"
+        android:icon="@drawable/chat" />
+
+    <item
+        android:id="@+id/navigation_voom"
+        android:title="Voom"
+        android:icon="@drawable/display" />
+
+    <item
+        android:id="@+id/navigation_panggilan"
+        android:title="Panggilan"
+        android:icon="@drawable/call" />
+
+</menu>

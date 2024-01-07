@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Tampilan_6">
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:text="Info lokasi Anda (seperti lokasi perangkat Anda serta data yang diperoleh dari beacon) digunakan untuk memberikan Anda, antara lain, informasi mengenai promosi pemasaran, peringatan prakiraan cuaca, serta informasi bermanfaat lainnya.
+
+Info lokasi Anda (seperti lokasi perangkat Anda serta data yang diperoleh dari beacon) digunakan untuk memberikan Anda informasi mengenai promosi pemasaran, peringatan prakiraan cuaca, serta informasi bermanfaat lainnya.
+
+Bagaimana kami Mengumpulkan dan Mengelola Data Anda
+
+Anda tetap dapat menggunakan aplikasi LINE meskipun Anda memilih untuk tidak membagikan data Anda.
+
+- Anda dapat berhenti membagikan data atau menghapus informasi lokasi yang dikumpulkan, serta menghentikan penggunaan LINE Beacon setiap saat melalui Pengaturan > Privasi > Izin Penggunaan Data.
+
+Lokasi Perangkat
+
+Untuk menyediakan layanan ini, LINE mungkin akan mengumpulkan data atas lokasi serta kecepatan pergerakan perangkat Anda saat aplikasi LINE digunakan. Data ini akan dikelola sesuai dengan Kebijakan Privasi. Silakan cek detailnya di sini.
+
+LINE Beacon
+
+Layanan ini menawarkan informasi dan fitur yang berguna dari beacon - hotspot yang berlokasi di toko-toko dan lokasi-lokasi lainnya dan akan mengirimkannya langsung ke perangkat Anda. LINE akan mengumpulkan serta menggunakan data dari perangkat sinyal pandu (beacon) untuk mencegah penyalahgunaan serta untuk keperluan penyediaan, pengembangan, dan peningkatan layanan kami serta pengiriman iklan. Jenis informasi yang dikumpulkan termasuk informasi pada fisik perangkat sinyal pandu (beacon) pada saat melakukan transmisi, kekuatan sinyal transmisi, durasi dan waktu sambungan transmisi, serta identitas internal LINE Anda. Data juga dapat dibagikan kepada perusahaan penyedia layanan yang terkait dengan LINE serta perusahaan subkontraktor LINE. Pelajari selengkapnya mengenai pembagian data Anda kepada pihak ketiga di sini." />
+
+    <Button
+        android:id="@+id/btnok6"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="3dp"
+        android:text="OK"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keterangan"
+        android:layout_marginTop="-73dp"
+        android:backgroundTint="@color/green"
+        android:text="Setuju untuk berbagi lokasi (opsional)" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox1"
+        android:layout_marginTop="-5dp"
+        android:backgroundTint="@color/green"
+        android:text="Setuju untuk menggunakan LINE Beacon (opsional)" />
+</RelativeLayout>

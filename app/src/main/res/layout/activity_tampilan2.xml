@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan_2">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifikasi Akun Anda"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".Tampilan_2">
+
+        <Spinner
+            android:id="@+id/spinnerCountries"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="397dp"
+            android:prompt="@string/select_country" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="462dp"
+            android:text="Harap pilih negara/wilayah tempat anda tinggal saat ini" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="288dp"
+            android:text="Dengan melanjutkan proses verivikasi, Anda dianggap telah menyetujui syarat dan ketentuan penggunaan dan kebijakan privasi LINE" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnok2"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="51dp"
+        android:text="OK"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
